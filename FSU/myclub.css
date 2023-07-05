@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+	--green:#279cae;
+	--black:#192a56;
+	--light-color:#666;
+	--box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: all .2s linear;
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-padding-top: 5.5rem;
+	scroll-behavior: smooth;
+}
+
+.club{
+    padding:2rem 7%;
+    margin-top: 10rem;
+}
+.club-image{
+  text-align: center;
+}
+.club-image img{
+    height: 40rem;
+   width: 40rem;
+}
+.club h1{
+    color: var(--black);
+    font-size: 4rem;
+    text-align: center;
+   
+}
+
+.clubs-info ul{
+    display: flex;
+   gap:15rem
+}
+.clubs-info ul .right{
+    border-left: .2rem solid;
+    margin-top: 2rem;
+}
+
+.clubs ul li{
+    padding:2rem;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+   /* display: inline-block; */
+}
+
+.clubs ul li a p{
+    font-size: 4rem;
+    color: var(--green);   
+}
+
+.clubs ul li a p1{
+    font-size: 1.5rem;
+      
+}
+
+.clubs ul li a p:hover{
+ color: #fff;
+ background: var(--green);
+ padding: 2rem;
+ border-radius: .5rem;
+}
+
+.clubs ul li  img{
+    height: 7rem;
+    width: 7rem;
+}
+

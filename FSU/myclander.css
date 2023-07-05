@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+:root{
+	--green:#279cae;
+	--black:#192a56;
+	--light-color:#666;
+	--box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: all .2s linear;
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-padding-top: 5.5rem;
+	scroll-behavior: smooth;
+}
+.calendar{
+  
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 15rem 3%;
+}
+.box{
+    position: relative;
+    display:flex;
+}
+
+.imp-event h1{
+    color: #192a56;
+    padding-bottom: 4rem;
+    font-size: 3rem;
+}
+.event{
+    display: flex;
+    border-top: .2rem solid;
+ 
+}
+.event .date h1{
+    color:#279cae;
+    font-size: 3rem;
+    margin: 1rem 1rem 0 1rem;
+    padding-top: 1rem;
+}
+.event .date p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.event .img {
+    display: flex;
+}
+.event .img img{
+    width: 35rem;
+    height: 20rem;
+    margin: 2rem;
+}
+.event .img p{
+    padding-top: 7rem;
+    font-size: 1.5rem;
+}
+.imp-event2{
+    padding-right: 38% ;
+}
+.container{
+    position: relative;
+    min-width: 400px;
+    box-shadow: var(--box-shadow) ;
+    border-radius: .8rem;
+}
+#dycalendar{
+    width: 100%;
+    padding:4rem 5rem;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+#dycalendar table{
+    width: 100%;
+    border-spacing:15px;
+}
+
+#dycalendar table tr:nth-child(1) td{
+    background: #fff;
+    color:var(--green);
+    border-radius: .5rem;
+    font-weight: 600;
+    box-shadow: var(--box-shadow);
+    padding: 0 1rem ;
+}
+#dycalendar table tr:nth-child(1) td:nth-child(1){
+  background: var(--green);  
+  color: #fff;
+}
+#dycalendar table td{
+    color:#777;
+    padding: 1rem ;
+     cursor: pointer;
+     font-weight: 500;
+
+}
+
+.dycalendar-target-date{
+    background:var(--green); 
+    border-radius: .5rem;
+    color: #fff !important;
+}
+
+.container .dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn .prev-btn{
+    width: 5rem;
+    height: 2rem;
+    font-size: 2rem;
+}

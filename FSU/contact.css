@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+	--green:#279cae;
+	--black:#192a56;
+	--light-color:#666;
+	--box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: all .2s linear;
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-padding-top: 5.5rem;
+	scroll-behavior: smooth;
+}
+
+.contacts{
+    padding: 4rem 7%;
+   align-items: center;
+}
+
+.contacts .image{
+    padding-top: 6rem;
+    text-align: center;
+    border-bottom: .2rem solid var(--green);
+}
+.contacts .image img{
+    width: 40%;
+    height: 45vh;
+}
+
+
+
+
+.contacts .support h1{
+    color: var(--black);
+    font-family: Script MT;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+.contacts .support .cont-support  h3{
+    color:var(--green);
+    text-align: center;
+    padding: .5rem;
+    font-size: 3rem;
+    border-radius: .5rem;
+    margin-top: 2rem;
+    border-bottom: .3rem solid gray;
+    margin-left: 40rem;
+    margin-right: 40rem;
+}
+
+
+.contacts .cont-support .supports  .member-group {
+    display: flex;
+    gap:4rem;
+   
+}
+
+.contacts .support  .member-group .me-image{
+    padding: 3rem;
+     text-align: center;
+}
+
+
+
+.contacts .support .member-group .me-image img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.contacts .support .member-group .me-image p{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}

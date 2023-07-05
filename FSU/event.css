@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+	--green:#279cae;
+	--black:#192a56;
+	--light-color:#666;
+	--box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: all .2s linear;
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-padding-top: 5.5rem;
+	scroll-behavior: smooth;
+}
+
+.event .events .image img{ 
+	display: block;
+	width: 100%;
+	height: 85vh;
+	object-fit: cover;
+	border-radius: .5rem;
+	/*height: 100%;
+	min-width: 100%;
+	overflow: hidden;*/
+}
+.image .content {
+	position: absolute;
+	text-align: center;
+	margin: 35rem 0;
+	padding-left: 30rem;
+	
+}
+
+.image .content h1{
+    font-size: 5rem;
+    color: var(--green);
+}
+.image .content p{
+   color: var(--light-color);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.event-info{
+    padding: 4rem 7%;
+   
+}
+.event-info .information h1{
+    color: var(--black);
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.event-info .information p{
+    color: var(--green);
+    font-size: 2rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    border-bottom: .2rem dashed;
+	font-family: Script MT;
+}
+.event-info .current-event{
+    
+    padding:5rem;
+}
+
+.event-info .current-event h2{
+    color: #d11414;
+    font-size: 2.5rem;
+}
+
+.event-info .past-event{
+    text-align: center;
+}
+
+.event-info .past-event h2{
+    color: var(--green);
+    font-size: 3rem;
+}
+
+.event-info .past-event p{
+    color: var(--black);
+    font-size: 2rem;
+	font-family: Script MT;
+}
