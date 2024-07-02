@@ -1,5 +1,5 @@
 # Frontend Webdevelopment
-This is sample project of frontended web development which contains of the following pages:
+This is sample project of frontend web development which contains of the following pages:
 * Home
 * About
 * Services
